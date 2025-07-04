@@ -21,7 +21,15 @@
 body {
     background-color: #9C97E6;
     margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    flex: 1;
+}
+
 
 .navbar ul {
     display: flex;
@@ -130,20 +138,24 @@ footer {
     justify-content: space-between;
     background-color: black;
     margin: 0;
-    padding: 0;
+    padding: 20px 0;
+    margin-top: auto;
 }
+
 
 #foot-logo {
     font-family: astral-black;
     color: white;
     padding-left: 65px;
     font-size: 36px;
+    margin: 0;
 }
 
 #number {
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     color: white;
     text-align: right;
     padding-right: 65px;
     font-size: 36px;
+    margin: 0;
 }
