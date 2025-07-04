@@ -70,6 +70,7 @@ body {
 }
 
 .text {
+    margin-top: -45px;
     max-width: 60%;
 }
 
@@ -77,8 +78,8 @@ body {
     width: 400px;
     height: auto;
     padding-right: 150px;
-    padding: 50px;
-    margin: 20px;
+    padding: 30px;
+    margin: 0px;
     animation: intro 2s forwards;
 }
 
@@ -101,7 +102,7 @@ body {
 .list {
     font-family: zzz-font;
     font-size: 28px;
-    margin-top: -15px;
+    margin-top: -45px;
     
 }
 
