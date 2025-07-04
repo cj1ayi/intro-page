@@ -75,9 +75,11 @@ main {
     gap: 10px;
     padding: 50px;
     padding-left: 150px;
+    font-weight: normal;
 }
 
 .text {
+    font-weight: normal;
     margin-top: -65px;
     max-width: 60%;
 }
@@ -103,12 +105,14 @@ main {
 }
 
 #contact {
+    font-weight: normal;
     font-family: brunson;
     font-size: 128px;
     margin-bottom: -70px;
 }
 
 #contact-chi {
+    font-weight: normal;
     font-family: zzz-font;
     font-size: 97px;
 }
@@ -144,6 +148,7 @@ footer {
 
 
 #foot-logo {
+    font-weight: normal;
     font-family: astral-black;
     color: white;
     padding-left: 65px;

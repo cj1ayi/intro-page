@@ -102,6 +102,7 @@ main {
 }
 
 #greeting {
+    font-weight: normal;
     font-family: jump;
     font-size: 40px;
     margin-bottom: -20px;
@@ -109,18 +110,21 @@ main {
 }
 
 #eng-name {
+    font-weight: normal;
     font-family: brunson;
     font-size: 128px;
     margin: 0;
 }
 
 #chi-name {
+    font-weight: normal;
     font-family: zzz-font;
     font-size: 128px;
     margin: 0;
 }
 
 .content p {
+    font-weight: normal;
     font-family: zzz-font;
     font-size: 24px;
     font-weight: bold;
@@ -137,6 +141,7 @@ main {
     border-radius: 10px;
     font-family: zzz-font;
     font-size: 20px;
+    font-weight: normal;
     transition: 0.2s ease-in;
 }
 
@@ -157,6 +162,7 @@ footer {
 
 
 #foot-logo {
+    font-weight: normal;
     font-family: astral-black;
     color: white;
     padding-left: 65px;

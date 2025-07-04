@@ -102,6 +102,7 @@ main {
 }
 
 #header {
+    font-weight: normal;
     font-family: brunson;
     font-size: 97px;
 }
@@ -114,6 +115,7 @@ main {
 }
 
 footer {
+    font-weight: normal;
     display: flex;
     justify-content: space-between;
     background-color: black;
