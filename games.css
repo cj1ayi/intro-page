@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'zzz-font';
+    src: url('fonts/zzz.ttf');
+}
+
+@font-face {
+    font-family: 'astral-black';
+    src: url('fonts/astral-black.ttf');
+}
+
+@font-face {
+    font-family: 'brunson';
+    src: url('fonts/brunson.ttf');
+}
+
+@font-face {
+    font-family: 'jump';
+    src: url('fonts/jumper_3/Jumper-BlackItalic.ttf')
+}
+
+body {
+    background-color: #9C97E6;
+    margin: 0px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    padding-right: 30px;
+    font-size: 36px;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar a {
+    color: white;
+    font-family: zzz-font;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: #9C97E6;
+}
+
+#logo {
+    width: 209.3px;
+    height: 78px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+    padding-left: 150px;
+}
+
+.text {
+    max-width: 60%;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
+    padding-right: 150px;
+    padding: 50px;
+    margin: 20px;
+    animation: intro 2s forwards;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+        transform: translateX(-10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+#header {
+    font-family: brunson;
+    font-size: 97px;
+}
+
+.list {
+    font-family: zzz-font;
+    font-size: 28px;
+    margin-top: -15px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#foot-logo {
+    font-family: astral-black;
+    color: white;
+    padding-left: 65px;
+    font-size: 36px;
+}
+
+#number {
+    font-family: DM Sans;
+    color: white;
+    text-align: right;
+    padding-right: 65px;
+    font-size: 36px;
+}
